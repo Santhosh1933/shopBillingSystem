@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Croissant+One&display=swap');
+
+.primary-tit {
+    font-family: 'Cookie', cursive;
+}
+
+.secondary-tit {
+    font-family: 'Croissant One', cursive;
+}
+
+.app {
+    background-image: url('images/pattern.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Customize the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background-color: #a46174;
+    transition: 0.5s;
+}
+
+/* Customize the scrollbar thumb when hovered */
+::-webkit-scrollbar-thumb:hover {
+    transition: 0.5s;
+    background-color: #6C2338;
+}
